@@ -1,4 +1,0 @@
-No inicio dos testes foi utilizado os valores de paramestros:
-
-n_epochs = 16 # Ajuste o número de épocas conforme necessário
-seed = 42 # Para reprodutibilidade

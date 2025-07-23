@@ -44,26 +44,34 @@ Nesse caso o overfitting parece ser um problema estrutural do treinamento, não 
 
 
 
-Resumindo:
+```
 Acertos por classe (Acertos, Total):
 - glioma_tumor: [15, 100]
 - meningioma_tumor: [100, 115] 
 - no_tumor: [98, 105]
 - pituitary_tumor: [31, 74]
+```
 
-  Acurácia total de Treinamento: 2696/2870 (93.94%)
+```
+Acurácia total de Treinamento: 2696/2870 (93.94%)
+```
 
+```
 Acurácia de Treinamento por Classe:
 Classe 0: 798/826 (96.61%)
 Classe 1: 706/822 (85.89%)
 Classe 2: 375/395 (94.94%)
 Classe 3: 817/827 (98.79%)
+```
 
+```
 Acurácia total de Validação: 244/394 (61.93%)
+```
 
+```
 Acurácia de Validação por Classe:
 Classe 0: 15/100 (15.00%)
 Classe 1: 100/115 (86.96%)
 Classe 2: 98/105 (93.33%)
 Classe 3: 31/74 (41.89%)
-- 
+```

@@ -36,6 +36,7 @@ As imagens passaram por etapas de **pré-processamento e normalização**, e o t
 - Um exemplo com CNN sem LR e um exemplo com LR:
 
 [Vide Experimento 3](https://colab.research.google.com/drive/1Y_yAajjrdYoAeL0xY6d631cp22OzI901?usp=sharing)
+
 [Vide teste 21](https://colab.research.google.com/drive/1umff74nukElrXxtgxxdAIoiKCSpUfsgj?usp=sharing)
 
 

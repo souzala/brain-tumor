@@ -36,10 +36,14 @@ As imagens passaram por etapas de **pré-processamento e normalização**, e o t
 - Vale ressaltar que fizemos 15 testes, segue alguns deles:
 
 [Vide Experimento 3](https://colab.research.google.com/drive/1Y_yAajjrdYoAeL0xY6d631cp22OzI901?usp=sharing)
-[Vide texte 15](https://colab.research.google.com/drive/1UKmlp6duJQuWcv8RrkoBkz_7A7CEzPao?usp=sharing)
-[Vide texte 17](https://colab.research.google.com/drive/1uENOFd07Fm-Wst2bhtS0Y4-4TxwATpJ8?usp=sharing)
-[Vide texte 19](https://colab.research.google.com/drive/1860n06RbJj_NzKv4YBGZ1KkyoAZQHiFO?usp=sharing)
-[Vide texte 11](https://colab.research.google.com/drive/1umff74nukElrXxtgxxdAIoiKCSpUfsgj?usp=sharing)
+
+[Vide teste 15](https://colab.research.google.com/drive/1UKmlp6duJQuWcv8RrkoBkz_7A7CEzPao?usp=sharing)
+
+[Vide teste 17](https://colab.research.google.com/drive/1uENOFd07Fm-Wst2bhtS0Y4-4TxwATpJ8?usp=sharing)
+
+[Vide teste 19](https://colab.research.google.com/drive/1860n06RbJj_NzKv4YBGZ1KkyoAZQHiFO?usp=sharing)
+
+[Vide teste 11](https://colab.research.google.com/drive/1umff74nukElrXxtgxxdAIoiKCSpUfsgj?usp=sharing)
 
 
 Segue a comparação: 

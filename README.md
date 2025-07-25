@@ -10,7 +10,7 @@ Utilizamos o dataset público disponível no Kaggle: [Brain Tumor Classification
 ### 📚 Referência Técnica
 Nosso trabalho foi inspirado no repositório:
 [Deep Learning with PyTorch Step-by-Step](https://github.com/dvgodoy/PyTorchStepByStep?tab=readme-ov-file)
-Além dos notebooks desenvolvidos no componente de Aprendizado e Máquia: 
+Além dos notebooks desenvolvidos no componente de Aprendizado de Máquina: 
 
 ---
 
@@ -22,16 +22,27 @@ O conjunto de dados é composto por **3.264 imagens de ressonância magnética (
 - `no_tumor` (sem tumor)
 - `pituitary_tumor`
 
+Em nossos notebooks, após um redimensionamento de imagens ficou com um dataset size de 2870 figuras.
+
 ---
 
 ## 🧪 Metodologia e Experimentos
 Realizamos experimentações variando **canal de entrada (grayscale ou RGB)**, **resolução da imagem** e **quantidade de filtros na primeira camada convolucional (n_feature)**.
 
-As imagens passaram por etapas de **pré-processamento e normalização**, e o treinamento foi realizado por **20 épocas** em todos os testes.
+As imagens passaram por etapas de **pré-processamento e normalização**, e o treinamento foi realizado por **20 épocas** nos testes de melhor desempenho.
 
-📌 Notebooks utilizados
-ADICONAR OS LINKSSS
+📌 Alguns dos notebooks utilizados:
 
+- Vale ressaltar que fizemos 15 testes, segue alguns deles:
+
+[Vide Experimento 3](https://colab.research.google.com/drive/1Y_yAajjrdYoAeL0xY6d631cp22OzI901?usp=sharing)
+[Vide texte 15](https://colab.research.google.com/drive/1UKmlp6duJQuWcv8RrkoBkz_7A7CEzPao?usp=sharing)
+[Vide texte 17](https://colab.research.google.com/drive/1uENOFd07Fm-Wst2bhtS0Y4-4TxwATpJ8?usp=sharing)
+[Vide texte 19](https://colab.research.google.com/drive/1860n06RbJj_NzKv4YBGZ1KkyoAZQHiFO?usp=sharing)
+[Vide texte 11](https://colab.research.google.com/drive/1umff74nukElrXxtgxxdAIoiKCSpUfsgj?usp=sharing)
+
+
+Segue a comparação: 
 
 ## 📊 Resultados comparativos (CNN sem LR)
 Abaixo estão os três principais experimentos que obtiveram melhores desempenhos em termos de acurácia de validação:
@@ -111,12 +122,13 @@ Testes realizados com:
 | **17** | 5         | 0.5   | **71.57%**    | 99.30%          | `no_tumor (100%)`  | `glioma (19%)`    |
 | **19** | 5         | 0.9   | **71.83%**    | 99.30%          | `meningioma (93%)` | `glioma (21%)`    |
 | **21** | 3         | 0.9   | **72.84%**    | 99.13%          | `no_tumor (100%)`  | `glioma (22%)`    |
-| **23** | 3         | 0.9   | **68.02%**    | 98.78%          | `meningioma (94%)` | `pituitary (47%)` |
+
 
 
 ### 🎯 Considerações dos testes
 - O **melhor resultado geral** foi com o Teste 21 (`step_size = 3`, `gamma = 0.9`), com **72.84%** de acurácia na validação.
 - A classe `glioma_tumor` foi consistentemente a mais desafiadora.
+- Ao comparar os nossos resultados gerais de acurácia na validação, o melhor desempenho foi obtido com a CNN sem aplicação de learning rate personalizado.
 - Os testes mostraram que **escolhas cuidadosas de LR** podem ajudar a melhorar a generalização, mas que **a arquitetura da rede e o balanceamento de classes também são fatores decisivos**.
 
 
